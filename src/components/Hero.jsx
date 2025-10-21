@@ -18,14 +18,14 @@ function Hero() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-5xl md:text-6xl font-bold mb-6"
             >
-              Maximize Your <motion.span 
+              Your <motion.span 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.8 }}
                 className="text-black"
               >
-                Google Ads
-              </motion.span> ROI
+                Crypto Journey
+              </motion.span> Starts Here
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 30 }}
@@ -33,7 +33,7 @@ function Hero() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="text-xl md:text-2xl text-gray-700 mb-8"
             >
-              Professional Google Ads management that drives results. Get more leads, increase sales, and grow your business with our expert team.
+              Join our trusted crypto community where experienced traders guide newcomers, help recover from scams, and provide reliable investment advice. Navigate the crypto world with confidence.
             </motion.p>
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
@@ -47,7 +47,7 @@ function Hero() {
                 href="#contact" 
                 className="bg-black text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-800 transition-colors"
               >
-                Get Free Consultation
+                Join Our Community
               </motion.a>
             </motion.div>
           </motion.div>
@@ -139,7 +139,7 @@ function Hero() {
                     transition={{ duration: 2, repeat: Infinity }}
                     className="text-lg"
                   >
-                    💰
+                    ₿
                   </motion.span>
                 </motion.div>
                 <motion.div 
@@ -154,7 +154,7 @@ function Hero() {
                     transition={{ duration: 1.5, repeat: Infinity }}
                     className="text-lg"
                   >
-                    📈
+                    🔒
                   </motion.span>
                 </motion.div>
                 <motion.div 
@@ -169,7 +169,7 @@ function Hero() {
                     transition={{ duration: 1.8, repeat: Infinity }}
                     className="text-lg"
                   >
-                    🎯
+                    💎
                   </motion.span>
                 </motion.div>
                 <motion.div 
@@ -184,7 +184,7 @@ function Hero() {
                     transition={{ duration: 2, repeat: Infinity }}
                     className="text-lg"
                   >
-                    ⚡
+                    🚀
                   </motion.span>
                 </motion.div>
                 
@@ -202,7 +202,7 @@ function Hero() {
                     transition={{ duration: 0.5, delay: 3.2 }}
                     className="text-sm font-bold text-black"
                   >
-                    "Let's boost your ads!"
+                    "Welcome to crypto!"
                   </motion.div>
                   <div className="absolute p-1 bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-black"></div>
                 </motion.div>
@@ -219,9 +219,9 @@ function Hero() {
                   whileHover={{ scale: 1.05 }}
                   className="inline-flex items-center space-x-2 bg-slate-100/40 backdrop-blur-lg px-4 py-2 rounded-lg border border-slate-300/50 shadow-lg"
                 >
-                  <span className="text-lg">🔍</span>
-                  <span className="font-bold text-black">Google Ads</span>
-                  <span className="text-lg">📊</span>
+                  <span className="text-lg">₿</span>
+                  <span className="font-bold text-black">Crypto Community</span>
+                  <span className="text-lg">💎</span>
                 </motion.div>
               </motion.div>
               
@@ -233,7 +233,7 @@ function Hero() {
                 whileHover={{ scale: 1.1 }}
                 className="absolute -top-2 -left-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-bold"
               >
-                +250% ROI
+                +500 Members
               </motion.div>
               <motion.div 
                 initial={{ opacity: 0, x: 20 }}
@@ -242,7 +242,7 @@ function Hero() {
                 whileHover={{ scale: 1.1 }}
                 className="absolute -top-2 -right-2 bg-blue-500 text-white text-xs px-2 py-1 rounded-full font-bold"
               >
-                +180% CTR
+                +95% Recovery
               </motion.div>
             </motion.div>
           </motion.div>
