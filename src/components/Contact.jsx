@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 function Contact() {
   return (
-    <section id="contact" className="py-20 px-6 bg-gradient-to-br from-gray-100 via-slate-200 to-gray-300 relative overflow-hidden">
+    <section id="contact" className="py-20 px-6 bg-gradient-to-br from-zinc-100 via-slate-200 to-gray-200 relative overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: 50 }}
@@ -122,7 +122,7 @@ function Contact() {
                   whileFocus={{ scale: 1.02 }}
                   type="text" 
                   placeholder="Your Name" 
-                  className="w-full p-4 bg-white/20 backdrop-blur-md border border-white/30 rounded-lg focus:outline-none focus:border-white/50 transition-all duration-300 placeholder-gray-600"
+                  className="w-full p-4 bg-white/30 backdrop-blur-lg border border-slate-300/60 rounded-lg focus:outline-none focus:border-slate-400/70 transition-all duration-300 placeholder-slate-600"
                 />
               </motion.div>
               <motion.div 
@@ -135,7 +135,7 @@ function Contact() {
                   whileFocus={{ scale: 1.02 }}
                   type="email" 
                   placeholder="Your Email" 
-                  className="w-full p-4 bg-white/20 backdrop-blur-md border border-white/30 rounded-lg focus:outline-none focus:border-white/50 transition-all duration-300 placeholder-gray-600"
+                  className="w-full p-4 bg-white/30 backdrop-blur-lg border border-slate-300/60 rounded-lg focus:outline-none focus:border-slate-400/70 transition-all duration-300 placeholder-slate-600"
                 />
               </motion.div>
               <motion.div 
@@ -148,7 +148,7 @@ function Contact() {
                   whileFocus={{ scale: 1.02 }}
                   type="text" 
                   placeholder="Company Name" 
-                  className="w-full p-4 bg-white/20 backdrop-blur-md border border-white/30 rounded-lg focus:outline-none focus:border-white/50 transition-all duration-300 placeholder-gray-600"
+                  className="w-full p-4 bg-white/30 backdrop-blur-lg border border-slate-300/60 rounded-lg focus:outline-none focus:border-slate-400/70 transition-all duration-300 placeholder-slate-600"
                 />
               </motion.div>
               <motion.div 
@@ -161,7 +161,7 @@ function Contact() {
                   whileFocus={{ scale: 1.02 }}
                   placeholder="Tell us about your project..." 
                   rows="4"
-                  className="w-full p-4 bg-white/20 backdrop-blur-md border border-white/30 rounded-lg focus:outline-none focus:border-white/50 transition-all duration-300 placeholder-gray-600"
+                  className="w-full p-4 bg-white/30 backdrop-blur-lg border border-slate-300/60 rounded-lg focus:outline-none focus:border-slate-400/70 transition-all duration-300 placeholder-slate-600"
                 ></motion.textarea>
               </motion.div>
               <motion.button 
