@@ -11,9 +11,9 @@ function Footer() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold mb-4">Google Ads Pro</h3>
+            <h3 className="text-2xl font-bold mb-4">CryptoGuard Community</h3>
             <p className="text-gray-400">
-              Professional Google Ads management services to help your business grow and succeed online.
+              Your trusted crypto community providing expert guidance, scam recovery services, and reliable investment advice to help you navigate the crypto world safely.
             </p>
           </motion.div>
           <motion.div 
@@ -28,25 +28,25 @@ function Footer() {
                 whileHover={{ x: 10 }}
                 transition={{ duration: 0.3 }}
               >
-                Search Campaigns
+                Scam Recovery
               </motion.li>
               <motion.li 
                 whileHover={{ x: 10 }}
                 transition={{ duration: 0.3 }}
               >
-                Display Advertising
+                Investment Guidance
               </motion.li>
               <motion.li 
                 whileHover={{ x: 10 }}
                 transition={{ duration: 0.3 }}
               >
-                Video Campaigns
+                Newbie Mentorship
               </motion.li>
               <motion.li 
                 whileHover={{ x: 10 }}
                 transition={{ duration: 0.3 }}
               >
-                Shopping Ads
+                Security Education
               </motion.li>
             </ul>
           </motion.div>
@@ -68,7 +68,7 @@ function Footer() {
                 whileHover={{ x: 10 }}
                 transition={{ duration: 0.3 }}
               >
-                hello@googleadspro.com
+                hello@cryptoguard.com
               </motion.li>
               <motion.li 
                 whileHover={{ x: 10 }}
@@ -98,7 +98,7 @@ function Footer() {
                 href="#" 
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                LinkedIn
+                Discord Community
               </motion.a>
               <motion.a 
                 whileHover={{ scale: 1.2, y: -5 }}
@@ -106,7 +106,7 @@ function Footer() {
                 href="#" 
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                Twitter
+                Telegram Group
               </motion.a>
               <motion.a 
                 whileHover={{ scale: 1.2, y: -5 }}
@@ -114,7 +114,7 @@ function Footer() {
                 href="#" 
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                Facebook
+                Reddit Community
               </motion.a>
             </div>
           </motion.div>
@@ -126,7 +126,7 @@ function Footer() {
           viewport={{ once: true }}
           className="border-t border-slate-300/20 mt-8 pt-8 text-center text-slate-400"
         >
-          <p>&copy; 2024 Google Ads Pro. All rights reserved.</p>
+          <p>&copy; 2024 CryptoGuard Community. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>

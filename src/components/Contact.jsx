@@ -59,7 +59,7 @@ function Contact() {
                 </motion.div>
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-gray-600">hello@googleadspro.com</p>
+                  <p className="text-gray-600">hello@cryptoguard.com</p>
                 </div>
               </motion.div>
               <motion.div 
@@ -78,8 +78,8 @@ function Contact() {
                   <span className="text-white">📍</span>
                 </motion.div>
                 <div>
-                  <p className="font-semibold">Address</p>
-                  <p className="text-gray-600">123 Business Ave<br />Suite 100<br />New York, NY 10001</p>
+                  <p className="font-semibold">Community Support</p>
+                  <p className="text-gray-600">Discord Community Server<br />Join our 24/7 support channel</p>
                 </div>
               </motion.div>
               <motion.div 
@@ -98,8 +98,8 @@ function Contact() {
                   <span className="text-white">🕒</span>
                 </motion.div>
                 <div>
-                  <p className="font-semibold">Business Hours</p>
-                  <p className="text-gray-600">Mon - Fri: 9:00 AM - 6:00 PM<br />Sat: 10:00 AM - 4:00 PM</p>
+                  <p className="font-semibold">Support Hours</p>
+                  <p className="text-gray-600">24/7 Community Support<br />Always here to help</p>
                 </div>
               </motion.div>
             </div>
@@ -147,7 +147,7 @@ function Contact() {
                 <motion.input 
                   whileFocus={{ scale: 1.02 }}
                   type="text" 
-                  placeholder="Company Name" 
+                  placeholder="Your Crypto Experience Level" 
                   className="w-full p-4 bg-white/30 backdrop-blur-lg border border-slate-300/60 rounded-lg focus:outline-none focus:border-slate-400/70 transition-all duration-300 placeholder-slate-600"
                 />
               </motion.div>
@@ -159,7 +159,7 @@ function Contact() {
               >
                 <motion.textarea 
                   whileFocus={{ scale: 1.02 }}
-                  placeholder="Tell us about your project..." 
+                  placeholder="Tell us about your crypto journey or how we can help..." 
                   rows="4"
                   className="w-full p-4 bg-white/30 backdrop-blur-lg border border-slate-300/60 rounded-lg focus:outline-none focus:border-slate-400/70 transition-all duration-300 placeholder-slate-600"
                 ></motion.textarea>
@@ -177,7 +177,7 @@ function Contact() {
                 type="submit"
                 className="w-full bg-black text-white py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors"
               >
-                Send Message
+                Join Our Community
               </motion.button>
             </form>
           </motion.div>

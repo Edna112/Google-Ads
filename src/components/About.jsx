@@ -20,9 +20,9 @@ function About() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-3xl font-bold mb-6">Google Ads Certified Experts</h3>
+            <h3 className="text-3xl font-bold mb-6">Crypto Community Experts</h3>
             <p className="text-lg text-gray-600 mb-6">
-              Our team consists of Google Ads certified professionals with years of experience managing campaigns across various industries. We stay up-to-date with the latest Google Ads features and best practices.
+              Our community consists of certified crypto professionals with years of experience in trading, security, and recovery. We stay up-to-date with the latest blockchain technologies and market trends to provide you with the most reliable guidance.
             </p>
             <ul className="text-left space-y-3">
               <motion.li 
@@ -38,7 +38,7 @@ function About() {
                 >
                   <span className="text-white text-sm">✓</span>
                 </motion.span>
-                Google Ads Certified
+                Crypto Security Certified
               </motion.li>
               <motion.li 
                 initial={{ opacity: 0, x: -50 }}
@@ -53,7 +53,7 @@ function About() {
                 >
                   <span className="text-white text-sm">✓</span>
                 </motion.span>
-                5+ Years Experience
+                5+ Years Trading Experience
               </motion.li>
               <motion.li 
                 initial={{ opacity: 0, x: -50 }}
@@ -68,7 +68,7 @@ function About() {
                 >
                   <span className="text-white text-sm">✓</span>
                 </motion.span>
-                Proven Results
+                Proven Recovery Success
               </motion.li>
               <motion.li 
                 initial={{ opacity: 0, x: -50 }}
@@ -83,7 +83,7 @@ function About() {
                 >
                   <span className="text-white text-sm">✓</span>
                 </motion.span>
-                24/7 Support
+                24/7 Community Support
               </motion.li>
             </ul>
           </motion.div>
@@ -95,7 +95,7 @@ function About() {
             whileHover={{ scale: 1.02 }}
             className="bg-white/30 backdrop-blur-lg p-8 rounded-lg border border-slate-200/60 shadow-xl"
           >
-            <h4 className="text-2xl font-bold mb-4">Our Results</h4>
+            <h4 className="text-2xl font-bold mb-4">Our Community Impact</h4>
             <div className="space-y-4">
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
@@ -104,7 +104,7 @@ function About() {
                 viewport={{ once: true }}
                 className="flex justify-between items-center"
               >
-                <span>Average ROI Increase:</span>
+                <span>Scam Recovery Success Rate:</span>
                 <motion.span 
                   initial={{ scale: 0 }}
                   whileInView={{ scale: 1 }}
@@ -112,7 +112,7 @@ function About() {
                   viewport={{ once: true }}
                   className="font-bold text-2xl text-green-600"
                 >
-                  +250%
+                  +95%
                 </motion.span>
               </motion.div>
               <motion.div 
@@ -122,7 +122,7 @@ function About() {
                 viewport={{ once: true }}
                 className="flex justify-between items-center"
               >
-                <span>Cost Per Lead Reduction:</span>
+                <span>Investment Success Rate:</span>
                 <motion.span 
                   initial={{ scale: 0 }}
                   whileInView={{ scale: 1 }}
@@ -130,7 +130,7 @@ function About() {
                   viewport={{ once: true }}
                   className="font-bold text-2xl text-blue-600"
                 >
-                  -40%
+                  +87%
                 </motion.span>
               </motion.div>
               <motion.div 
@@ -140,7 +140,7 @@ function About() {
                 viewport={{ once: true }}
                 className="flex justify-between items-center"
               >
-                <span>Click-Through Rate:</span>
+                <span>Community Growth:</span>
                 <motion.span 
                   initial={{ scale: 0 }}
                   whileInView={{ scale: 1 }}
@@ -148,7 +148,7 @@ function About() {
                   viewport={{ once: true }}
                   className="font-bold text-2xl text-purple-600"
                 >
-                  +180%
+                  +500%
                 </motion.span>
               </motion.div>
               <motion.div 
@@ -158,7 +158,7 @@ function About() {
                 viewport={{ once: true }}
                 className="flex justify-between items-center"
               >
-                <span>Conversion Rate:</span>
+                <span>Member Satisfaction:</span>
                 <motion.span 
                   initial={{ scale: 0 }}
                   whileInView={{ scale: 1 }}
@@ -166,7 +166,7 @@ function About() {
                   viewport={{ once: true }}
                   className="font-bold text-2xl text-orange-600"
                 >
-                  +120%
+                  +98%
                 </motion.span>
               </motion.div>
             </div>

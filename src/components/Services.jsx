@@ -11,7 +11,7 @@ function Services() {
           viewport={{ once: true }}
           className="text-4xl font-bold text-center mb-16"
         >
-          Our Google Ads Services
+          Our Crypto Community Services
         </motion.h2>
         <div className="grid md:grid-cols-3 gap-8">
           <motion.div 
@@ -31,10 +31,10 @@ function Services() {
               transition={{ duration: 0.6 }}
               className="w-16 h-16 bg-black rounded-full mx-auto mb-6 flex items-center justify-center"
             >
-              <span className="text-white text-2xl">🎯</span>
+              <span className="text-white text-2xl">🔒</span>
             </motion.div>
-            <h3 className="text-2xl font-bold mb-4">Campaign Strategy</h3>
-            <p className="text-gray-600">Custom Google Ads strategies tailored to your business goals and target audience.</p>
+            <h3 className="text-2xl font-bold mb-4">Scam Recovery</h3>
+            <p className="text-gray-600">Expert assistance to help victims recover from crypto scams and fraudulent schemes with proven recovery strategies.</p>
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, y: 100 }}
@@ -53,10 +53,10 @@ function Services() {
               transition={{ duration: 0.6 }}
               className="w-16 h-16 bg-black rounded-full mx-auto mb-6 flex items-center justify-center"
             >
-              <span className="text-white text-2xl">📊</span>
+              <span className="text-white text-2xl">💎</span>
             </motion.div>
-            <h3 className="text-2xl font-bold mb-4">Performance Optimization</h3>
-            <p className="text-gray-600">Continuous monitoring and optimization to maximize your ad performance and ROI.</p>
+            <h3 className="text-2xl font-bold mb-4">Investment Guidance</h3>
+            <p className="text-gray-600">Reliable crypto investment advice from experienced traders to help you make informed decisions and avoid pitfalls.</p>
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, y: 100 }}
@@ -75,10 +75,10 @@ function Services() {
               transition={{ duration: 0.6 }}
               className="w-16 h-16 bg-black rounded-full mx-auto mb-6 flex items-center justify-center"
             >
-              <span className="text-white text-2xl">📈</span>
+              <span className="text-white text-2xl">🚀</span>
             </motion.div>
-            <h3 className="text-2xl font-bold mb-4">Analytics & Reporting</h3>
-            <p className="text-gray-600">Detailed reports and insights to track your campaign success and growth.</p>
+            <h3 className="text-2xl font-bold mb-4">Newbie Mentorship</h3>
+            <p className="text-gray-600">Comprehensive guidance for crypto beginners with step-by-step tutorials and personalized mentorship programs.</p>
           </motion.div>
         </div>
       </div>

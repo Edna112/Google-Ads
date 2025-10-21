@@ -26,7 +26,7 @@ function Header() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-2xl font-bold"
         >
-          Google Ads Pro
+          CryptoGuard Community
         </motion.div>
         
         {/* Desktop Navigation */}
