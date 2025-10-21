@@ -204,7 +204,7 @@ function Hero() {
                   >
                     "Let's boost your ads!"
                   </motion.div>
-                  <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-black"></div>
+                  <div className="absolute p-1 bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-black"></div>
                 </motion.div>
               </div>
               
