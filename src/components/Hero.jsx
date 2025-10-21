@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 function Hero() {
   return (
-    <section className="bg-gradient-to-b from-gray-50 to-white py-20 px-6">
+    <section className="bg-gradient-to-br from-slate-50 via-white to-gray-100 py-20 px-6 relative overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left side - Content */}
@@ -62,7 +62,7 @@ function Hero() {
             <motion.div 
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.3 }}
-              className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl p-8 shadow-xl"
+              className="bg-gradient-to-br from-white/20 to-gray-100/30 backdrop-blur-lg rounded-2xl p-8 shadow-2xl border border-white/20"
             >
               {/* Anime-style character */}
               <div className="relative">
@@ -217,7 +217,7 @@ function Hero() {
               >
                 <motion.div 
                   whileHover={{ scale: 1.05 }}
-                  className="inline-flex items-center space-x-2 bg-white px-4 py-2 rounded-lg border-2 border-black"
+                  className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-md px-4 py-2 rounded-lg border border-white/30 shadow-lg"
                 >
                   <span className="text-lg">🔍</span>
                   <span className="font-bold text-black">Google Ads</span>

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 function Services() {
   return (
-    <section id="services" className="py-20 px-6 bg-white">
+    <section id="services" className="py-20 px-6 bg-gradient-to-b from-white via-gray-50 to-slate-100 relative overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: 50 }}
@@ -24,7 +24,7 @@ function Services() {
               boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
               y: -10
             }}
-            className="text-center p-8 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow"
+            className="text-center p-8 bg-white/20 backdrop-blur-md rounded-lg hover:shadow-2xl transition-all duration-300 border border-white/30"
           >
             <motion.div 
               whileHover={{ rotate: 360 }}
@@ -46,7 +46,7 @@ function Services() {
               boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
               y: -10
             }}
-            className="text-center p-8 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow"
+            className="text-center p-8 bg-white/20 backdrop-blur-md rounded-lg hover:shadow-2xl transition-all duration-300 border border-white/30"
           >
             <motion.div 
               whileHover={{ rotate: 360 }}
@@ -68,7 +68,7 @@ function Services() {
               boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
               y: -10
             }}
-            className="text-center p-8 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow"
+            className="text-center p-8 bg-white/20 backdrop-blur-md rounded-lg hover:shadow-2xl transition-all duration-300 border border-white/30"
           >
             <motion.div 
               whileHover={{ rotate: 360 }}

@@ -17,7 +17,7 @@ function Header() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="bg-black text-white py-4 px-6 relative"
+      className="bg-gradient-to-r from-black/90 via-gray-900/90 to-black/90 backdrop-blur-md border-b border-white/10 text-white py-4 px-6 relative"
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <motion.div 
@@ -103,7 +103,7 @@ function Header() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden bg-black border-t border-gray-800"
+            className="md:hidden bg-gradient-to-b from-gray-900/95 to-black/95 backdrop-blur-md border-t border-white/10"
           >
             <motion.nav 
               initial={{ opacity: 0, y: -20 }}

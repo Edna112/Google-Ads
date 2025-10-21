@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 function Footer() {
   return (
-    <footer className="bg-black text-white py-12 px-6">
+    <footer className="bg-gradient-to-r from-black via-gray-900 to-black text-white py-12 px-6 relative overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8">
           <motion.div 
@@ -124,7 +124,7 @@ function Footer() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.8 }}
           viewport={{ once: true }}
-          className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400"
+          className="border-t border-white/10 mt-8 pt-8 text-center text-gray-400"
         >
           <p>&copy; 2024 Google Ads Pro. All rights reserved.</p>
         </motion.div>

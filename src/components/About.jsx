@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 function About() {
   return (
-    <section id="about" className="py-20 px-6 bg-white">
+    <section id="about" className="py-20 px-6 bg-gradient-to-b from-slate-100 via-white to-gray-50 relative overflow-hidden">
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2 
           initial={{ opacity: 0, y: 50 }}
@@ -93,7 +93,7 @@ function About() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
             whileHover={{ scale: 1.02 }}
-            className="bg-gray-100 p-8 rounded-lg"
+            className="bg-white/20 backdrop-blur-md p-8 rounded-lg border border-white/30 shadow-xl"
           >
             <h4 className="text-2xl font-bold mb-4">Our Results</h4>
             <div className="space-y-4">
