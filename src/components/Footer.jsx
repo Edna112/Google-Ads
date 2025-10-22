@@ -68,7 +68,7 @@ function Footer() {
                 whileHover={{ x: 10 }}
                 transition={{ duration: 0.3 }}
               >
-                hello@cryptoguard.com
+                Sales@cryptoexpertss.net
               </motion.li>
               <motion.li 
                 whileHover={{ x: 10 }}

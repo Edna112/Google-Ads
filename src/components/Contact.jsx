@@ -59,7 +59,7 @@ function Contact() {
                 </motion.div>
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-gray-600">hello@cryptoguard.com</p>
+                  <p className="text-gray-600">Sales@cryptoexpertss.net</p>
                 </div>
               </motion.div>
               <motion.div 

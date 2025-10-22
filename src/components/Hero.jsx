@@ -44,7 +44,9 @@ function Hero() {
               <motion.a 
                 whileHover={{ scale: 1.05, boxShadow: "0 10px 25px rgba(0,0,0,0.2)" }}
                 whileTap={{ scale: 0.95 }}
-                href="#contact" 
+                href="http://t.me/lostcrypto_recovery" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-black text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-800 transition-colors"
               >
                 Join Our Community
