@@ -103,7 +103,9 @@ function Footer() {
               <motion.a 
                 whileHover={{ scale: 1.2, y: -5 }}
                 whileTap={{ scale: 0.9 }}
-                href="#" 
+                href="http://t.me/lostcrypto_recovery" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 Telegram Group

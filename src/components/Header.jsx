@@ -20,14 +20,15 @@ function Header() {
       className="bg-gradient-to-r from-slate-900/95 via-gray-800/90 to-slate-900/95 backdrop-blur-xl border-b border-slate-300/20 text-white py-4 px-6 relative shadow-lg"
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <motion.div 
+        <motion.a 
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-2xl font-bold"
+          href="#"
+          className="text-2xl font-bold hover:text-gray-300 transition-colors"
         >
           CryptoGuard Community
-        </motion.div>
+        </motion.a>
         
         {/* Desktop Navigation */}
         <motion.nav 
