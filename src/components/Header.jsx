@@ -25,14 +25,9 @@ function Header() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           href="#"
-          className="flex items-center space-x-3 hover:text-gray-300 transition-colors"
+          className="text-2xl font-bold hover:text-gray-300 transition-colors"
         >
-          <img 
-            src="/generated-image.png" 
-            alt="CryptoGuard Community Logo" 
-            className="w-8 h-8"
-          />
-          <span className="text-2xl font-bold">CryptoGuard Community</span>
+          CryptoGuard
         </motion.a>
         
         {/* Desktop Navigation */}

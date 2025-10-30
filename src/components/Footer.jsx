@@ -11,7 +11,7 @@ function Footer() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold mb-4">CryptoGuard Community</h3>
+            <h3 className="text-2xl font-bold mb-4">CryptoGuard </h3>
             <p className="text-gray-400">
               Your trusted crypto community providing expert guidance, scam recovery services, and reliable investment advice to help you navigate the crypto world safely.
             </p>
@@ -62,13 +62,14 @@ function Footer() {
                 whileHover={{ x: 10 }}
                 transition={{ duration: 0.3 }}
               >
-                +1 (555) 123-4567
+                +1 (914) 639-0770
               </motion.li>
               <motion.li 
                 whileHover={{ x: 10 }}
                 transition={{ duration: 0.3 }}
               >
-                Sales@cryptoexpertss.net
+                help@cryptoexpertss.net
+
               </motion.li>
               <motion.li 
                 whileHover={{ x: 10 }}
@@ -80,7 +81,7 @@ function Footer() {
                 whileHover={{ x: 10 }}
                 transition={{ duration: 0.3 }}
               >
-                New York, NY 10001
+                Los Angeles, CA 90001
               </motion.li>
             </ul>
           </motion.div>
@@ -115,6 +116,7 @@ function Footer() {
                 whileTap={{ scale: 0.9 }}
                 href="#" 
                 className="text-gray-400 hover:text-white transition-colors"
+                
               >
                 Reddit Community
               </motion.a>
@@ -128,9 +130,10 @@ function Footer() {
           viewport={{ once: true }}
           className="border-t border-slate-300/20 mt-8 pt-8 text-center text-slate-400"
         >
-          <p>&copy; 2024 CryptoGuard Community. All rights reserved.</p>
+          <p>&copy; 2024 CryptoGuard. All rights reserved.</p>
         </motion.div>
       </div>
+      
     </footer>
   )
 }

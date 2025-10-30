@@ -20,7 +20,7 @@ function About() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-3xl font-bold mb-6">Crypto Community Experts</h3>
+            <h3 className="text-3xl font-bold mb-6">CryptoGuard</h3>
             <p className="text-lg text-gray-600 mb-6">
               Our community consists of certified crypto professionals with years of experience in trading, security, and recovery. We stay up-to-date with the latest blockchain technologies and market trends to provide you with the most reliable guidance.
             </p>

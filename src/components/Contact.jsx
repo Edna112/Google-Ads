@@ -39,7 +39,7 @@ function Contact() {
                 </motion.div>
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+1 (914)6390770</p>
                 </div>
               </motion.div>
               <motion.div 
@@ -59,7 +59,7 @@ function Contact() {
                 </motion.div>
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-gray-600">Sales@cryptoexpertss.net</p>
+                  <p className="text-gray-600">Support@cryptoexpertss.net</p>
                 </div>
               </motion.div>
               <motion.div 
