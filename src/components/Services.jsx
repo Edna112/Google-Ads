@@ -79,11 +79,11 @@ function Services() {
             </motion.div>
             <h3 className="text-2xl font-bold mb-4">Newbie Mentorship</h3>
             <p className="text-gray-600">Comprehensive guidance for crypto beginners with step-by-step tutorials and personalized mentorship programs.</p>
+            {/* Elfsight Telegram Chat | crypto */}
+            <script src="https://elfsightcdn.com/platform.js" async></script>
+            <div className="elfsight-app-ea67b6d3-4ce1-4aee-9b4e-10aa0d6a0e33" data-elfsight-app-lazy></div>
           </motion.div>
-          {/* Elfsight Telegram Chat | crypto */}
-<script src="https://elfsightcdn.com/platform.js" async></script>
-<div className="elfsight-app-ea67b6d3-4ce1-4aee-9b4e-10aa0d6a0e33" data-elfsight-app-lazy></div>
-        </div>
+          </div>
       </div>
     </section>
   )
